@@ -5,7 +5,7 @@ Pequeno clone do twitter utilizando python com seu framework flask
 
 # Como iniciar o projeto:
 
-## Instalando o Framwork;
+## Instalando o Framwork e Dependências;
 ```
 pip3 install -r requirements.txt
 ```
@@ -33,3 +33,7 @@ Banco de Dados
 ## Static:
 
 Páginas de arquivos estáticos do Framework
+
+# Documentação do Framework:
+
+[Flask](https://flask.palletsprojects.com/en/2.3.x/)
