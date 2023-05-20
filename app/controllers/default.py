@@ -1,17 +1,7 @@
 from app import app
+from flask import render_template
 
-@app.route("/") # <- decorator
-def index():
-    return "Hello world"
-
-@app.route("/test", defaults={'name': None})
-@app.route("/test/<name>")
-def test(name):
-    if name:
-        return 'Olá, %s!' % name
-    else:
-        return "Olá"
-    
-@app.route("/inteiro/<int:num>") # força tipagem
-def interito(num):
-    return f"numero é {num}"
+@app.route("/index/<user>") # <- decorator
+@app.route("/", defaults = {'user':None})
+def index(user):
+    return render_template("index.html", user=user)
