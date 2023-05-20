@@ -1,6 +1,6 @@
 # Sobre o projeto:
 
-Pequeno clone do twitter utilizando python com seu framework flask
+Pequeno clone do twitter utilizando python os Frameworks Flask, e Bootstrap
 
 
 # Como iniciar o projeto:
@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 ## Iniciando :
 
 ```
-python3 run.py
+python run.py runserver
 ```
 
 
